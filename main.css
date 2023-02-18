@@ -338,6 +338,12 @@ footer h3 {
     font-size: 15px;
     margin-left: 5px;
 }
+.orb-canvas {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+}
 @keyframes rotation {
     0% {transform: rotate(0deg);}
     100% {transform: rotate(360deg);}
@@ -372,6 +378,7 @@ footer h3 {
     .about {
         flex-direction: column-reverse;
         padding: 50px 10px;
+        position: relative;
     }
     .about h1 {
         font-size: 36px;
